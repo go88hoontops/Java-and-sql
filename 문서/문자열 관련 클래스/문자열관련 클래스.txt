@@ -1,0 +1,65 @@
+* 문자열 관련 클래스
+
+String
+
+StringBuffer
+
+StringTokenizer
+
+
+* String 클래스
+
+String str1 = "자바";
+
+String str2 =  new String("자바");
+
+String str3 =  new String("자바");
+
+
+str1          ----->    자바
+ 
+str2          ----->    자바
+
+str3          ----->    자바
+
+
+(Stack영역)            (Heap영역)
+
+
+if(str1 == str2){ //주소값을 비교
+
+}
+
+if(str1.equals(str2)){ //실제 값을 비교
+
+}
+
+
+
+* StringBuffer 클래스
+
+ StringBuffer sb = new StringBuffer("자바");
+
+sb1         ----->	   gemini  is beautiful1004
+
+sb2         ----->
+
+// sb1과 sb2는 같은 내용을 가리키고 있음
+(Stack영역)	                 (Heap영역)
+
+
+
+
+* StringTokenizer 클래스
+
+
+
+
+
+
+
+
+
+
+
+

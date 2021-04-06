@@ -1,0 +1,17 @@
+* this와 super
+
+this.  : 생성자와 메소드 안에서 멤버변수와 매개변수 이름이
+         동일한 경우에 주로 사용함.
+	 ex) public Test(int a, int b){
+		this.a = a;
+		this.b = b;
+	     }
+
+this() : 같은 클래스안에 있는 생성자를 호출할때 사용
+
+
+super. : 부모 클래스안에 있는 멤버변수와 메소드를 호출할때
+          사용함.
+          ex) super.x         super.parentPrn()
+
+super() : 부모클래스의 생성자를 호출하라는 의미

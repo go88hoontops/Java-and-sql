@@ -1,0 +1,12 @@
+﻿*자바의 기본 자료형 변환
+
+묵시적(암시적) 형변환 ex)  char -> int
+자동 형변환	          int -> float
+		          int -> double
+		          float -> double
+
+
+명시적 형변환 ex)     int -> char       ex) char c = (char)97;
+강제 형변환            double -> int
+     	            		           ex) int a =  (int) 3.14;
+   	               double -> float
